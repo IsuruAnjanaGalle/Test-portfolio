@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header
+{
+    box-sizing: border-box;
+}
+
+/* css reset */
+
+.slidebar
+{
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: #042331;
+    transition: .4s;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 300px 30px 0 30px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li
+{
+    list-style: none;
+    display: table;
+    margin: 20px;
+}
+
+#menu li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu li:hover a
+{
+    padding-left: 5px;
+}
+
+section
+{
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+
+#home
+{
+    background-position-x: right;
+    background-size: 90%;
+    background-image: linear-gradient(rgba(223, 223, 226, 0),rgba(10, 31, 11, 0.8)),url(images/codes.jpg);
+}
+
+#about
+{
+    background-position-x: right;
+    background-size: 90%;
+    background-image: linear-gradient(rgba(223, 223, 226, 0.26),rgba(0, 0, 0, 0.8)),url(images/its_all_about_me.jpg);
+}
+
+#education
+{
+    background-position-x: right;
+    background-size: 80%;
+    background-image: linear-gradient(rgba(252, 252, 255, 0.247),rgba(211, 163, 96, 0.8)),url(images/education-1959551_1920.jpg);
+}
+
+#skills
+{
+    background-position-x: right;
+    background-size: 95%;
+    background-image: linear-gradient(rgba(226, 29, 29, 0.8),rgba(15, 14, 14, 0.8)),url(images/skills-for-resume.png);
+}
+
+#contact
+{
+    background-position-x: right;
+    background-size: 80%;
+    background-image: linear-gradient(rgba(30, 245, 227, 0.8),rgba(3, 3, 46, 0.8)),url(images/aaron-burden-xG8IQMqMITM-unsplash.jpg);
+}
+
+h1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
